@@ -8,9 +8,7 @@ Console.Write("Введите число A: ");
 int numA = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число B: ");
 int numB = Convert.ToInt32(Console.ReadLine());
-int max = numA;
-if (max > numB)
-    System.Console.WriteLine("Max = "+max);
+if (numA > numB)
+    System.Console.WriteLine("Max = "+numA+"  Min = "+numB);
 else
-    // max = numB;
-    System.Console.WriteLine("Max = "+numB);
+    System.Console.WriteLine("Max = "+numB+"  Min = "+numA);
